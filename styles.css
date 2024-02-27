@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+*{
+    background-color: bisque;
+    width: 1100px;
+}
+.imageContainer{
+    width: 50%;
+    display: flex;
+}
+tr td:first-child{
+    min-width: 200px;
+    max-width: 200px;
+}
+
+tr td:last-child{
+    min-width: 200px;
+    max-width: 200px;
+}
+
+tr td:nth-child(2){
+    min-width: 600px;
+    max-width: 600px;
+}
+td img{
+    height:100px;
+    width: auto;
+}
